@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<head>
+{% extends "base.html" %}
 
-    <link rel="shortcut icon" href="{Favicon}">
-    <link rel="alternate" type="application/rss+xml" href="{RSS}">
-
-    <title>fruity photos</title>
-
+{% block head %}
+{{ super() }}
     <style type="text/css">
 
 * { margin:0;padding:0;box-sizing:border-box; }
@@ -107,42 +103,14 @@ nav { margin-top:5px; }
 .content { width:460px; margin-left:140px; }
 
 </style>
-</head>
-<body>
+{% endblock %}
 
-<section>
-    <header>
-        <h1>about us</h1>
+{% block title %} <h1>about us</h1> {% endblock %}
+{% block content %} hello! we are the creators of fruity photos!  <a href="https://portfolio.fruitycoders.repl.co">click here to visit our portfolio website.</a> {% endblock %}
 
-        hello! we are the creators of fruity photos!
-        <a href="https://portfolio.fruitycoders.repl.co">click here to visit our portfolio website.</a>
+{% block footer %}
 
-        <nav>
-            <a href="/home">home</a> .
-            <a href="/history">history</a> .
-            <a href="/biographies">biographies</a> .
-            <div class="dropdown">
-                gallery .
-                <div class="dropdown-content">
-                    <a href="/wong">Russel Wong</a>
-                    <a href="/shabazz">Jamel Shabazz</a>
-                    <a href="/adams">Ansel Adams</a>
-                    <a href="/pretty">Adam Pretty</a>
-                    <a href="/leibovitz">Annie Leibovitz</a>
-                    <a href="/mccurry">Steve McCurry</a>
-                    <a href="/bourke">Margaret Bourke-White</a>
-                    <a href="/goldin">Nan Goldin</a>
-                    <a href="/newman">Arnold Newman</a>
-                    <a href="/mann">Sally Mann</a>
-                </div>
-            </div>
-            <a href="/aboutus">about us</a> .
-            <a href="https://github.com/fruitycoders/photography" target="_blank">project repo</a>
-        </nav>
-
-    </header>
-
-    <article>
+<article>
         <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358252.svg"/>
         <div class="content">
             <h2>sophie lee</h2>
@@ -186,6 +154,4 @@ nav { margin-top:5px; }
 
         </div>
     </article>
-
-</section>
-</body>
+{% endblock %}
