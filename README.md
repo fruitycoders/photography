@@ -6,6 +6,11 @@ This website shows the history of photography such as famous photographers. It e
 - This website allows viewers to view photos and learn information about photography.
 
 ## Log
+- Nov 13: Cleaned up website and fixed any formatting errors or anything we had wanted to change
+- Nov 12: Picked up Rasberry pi from teacher and we started to deploy our project
+- Nov 9: Talked about deploying our project and that we can get a rasberry pi from the teacher. 
+- Nov 5: Fixed some formatting errors on our website
+- Nov 4: Learned that we would need to deploy our project so we did research to figure out how since none of us had a rasberry pi
 - Nov 3: Linda got Jinja to work, so we are now moving the Repl code to IntelliJ
 - Oct 30: Changed project so it is about photography history instead of a place to upload photos. Sophie changed the main design of the site, linked the pages to each other, added a drop down menu for the gallery link. Also created the pages for History, Biographies, Gallery, and About Us. Team members also wrote the mini biographies of two photographers.
 - Oct 29: Maggie linked website to IntelliJ and updated the README file. Team also made minor changes to html
