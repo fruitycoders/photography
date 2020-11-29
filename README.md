@@ -6,6 +6,8 @@ This website shows the history of photography such as famous photographers. It e
 - This website allows viewers to view photos and learn information about photography.
 
 ## Log
+- Nov 28: Updated playground.html and data.py to make use of Jinja.
+- Nov 27: Linda and Sophie updated the code to contain more data and loops using Jinja. Added a new file (playground.html) and used Jinja base templates, including {% endblock %} and {% block head %}, to display our data.
 - Nov 17-20: because of Linda's household's router settings, had to go through other extra steps to port forward pi web server for it to be accessed from Internet. Contacted tp-link and eastlink service agents, made the router to bridge mode and applied other administrative settings to find the public internet ip address. 
 - Nov 16: deployed local area connection, now able to run raspberry pi web server in any browser with a local network. 
 - Nov 15: Connected the raspberry pi on home monitor, installed VNC and set up RealVNC to share remote connection. 
