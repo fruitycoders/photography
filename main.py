@@ -19,6 +19,10 @@ def biographies_route():
 def aboutus_route():
     return render_template("aboutus.html")
 
+@app.route('/playground/')
+def playground_route():
+    return render_template("playground.html")
+
 @app.route('/adams/')
 def adams_route():
     return render_template("adams.html")
