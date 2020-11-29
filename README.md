@@ -6,6 +6,9 @@ This website shows the history of photography such as famous photographers. It e
 - This website allows viewers to view photos and learn information about photography.
 
 ## Log
+- Nov 17-20: because of Linda's household's router settings, had to go through other extra steps to port forward pi web server for it to be accessed from Internet. Contacted tp-link and eastlink service agents, made the router to bridge mode and applied other administrative settings to find the public internet ip address. 
+- Nov 16: deployed local area connection, now able to run raspberry pi web server in any browser with a local network. 
+- Nov 15: Connected the raspberry pi on home monitor, installed VNC and set up RealVNC to share remote connection. 
 - Nov 13: Cleaned up website and fixed any formatting errors or anything we had wanted to change
 - Nov 12: Picked up Rasberry pi from teacher and we started to deploy our project
 - Nov 9: Talked about deploying our project and that we can get a rasberry pi from the teacher. 
