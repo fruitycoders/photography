@@ -2,11 +2,18 @@ def setup():
     title = "fruity photos"
     sophie = "https://github.com/sophieleeajh"
     linda = "https://github.com/lindalonglong"
+    maggie = "https://github.com/maggie3000"
+    adam = "https://github.com/AdamHolbel"
+    wenshi = "https://github.com/wenshibao"    
     sophievid = "https://youtu.be/aPTJ5J0kxi0"
     lindavid = "https://www.youtube.com/watch?v=lu6bdBbVXh4"
-    journal = "https://docs.google.com/spreadsheets/d/1elSgQhDFkBvTvTqnRh8zs0XKX0BS7Nr3QeHGaYTkk0k/edit?ouid=115921679004469073625&usp=sheets_home&ths=true"
+    maggievid = "/"    
+    adamvid = "/"
+    wenshivid = "/"
+    triojournal = "https://docs.google.com/spreadsheets/d/1elSgQhDFkBvTvTqnRh8zs0XKX0BS7Nr3QeHGaYTkk0k/edit?ouid=115921679004469073625&usp=sheets_home&ths=true"
+    pairjournal = "https://docs.google.com/document/d/1L9sVv2iMl7lLbC6PNYKWoeHRtvyGecbl9zUvXjIErNA/edit?usp=sharing"
 
-    source = {"title": title, "sophie": sophie, "linda": linda, "sophievid": sophievid, "lindavid": lindavid, "journal": journal}
+    source = {"title": title, "sophie": sophie, "linda": linda, "maggie": maggie, "adam": adam, "wenshi": wenshi, "sophievid": sophievid, "lindavid": lindavid, "maggievid": maggievid, "adamvid": adamvid, "wenshivid": wenshivid, "triojournal": triojournal, "pairjourna": pairjournal}
 
     return title
 
