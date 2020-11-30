@@ -17,7 +17,7 @@ def biographies_route():
 
 @app.route('/aboutus/')
 def aboutus_route():
-    return render_template("aboutus.html")
+    return render_template("aboutus.html", persons=data.persons())
 
 @app.route('/playground/')
 def playground_route():

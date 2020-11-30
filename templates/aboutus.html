@@ -109,50 +109,20 @@ nav { margin-top:5px; }
 {% block content %} hello! we are the creators of fruity photos!  <a href="https://portfolio.fruitycoders.repl.co">click here to visit our portfolio website.</a> {% endblock %}
 
 {% block footer %}
-
-<article>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358252.svg"/>
-        <div class="content">
-            <h2>sophie lee</h2>
-            co'2021 | <a href="https://github.com/orgs/fruitycoders/people/sophieleeajh">github</a>
-
-        </div>
-    </article>
-
+{% for person in persons %}
+    {% set image=person['image'] %}
+    {% set name=person['name'] %}
+    {% set github=person['github'] %}
     <article>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358096.svg"/>
+        <img src="{{image}}"/>
         <div class="content">
-            <h2>maggie killada</h2>
-            co'2022 | <a href="https://github.com/orgs/fruitycoders/people/maggie3000">github</a>
-
+            <h2>{{name}}</h2>
+            co'2021 | <a href={{github}}>github</a>
         </div>
     </article>
+{% endfor %}
 
-    <article>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358248.svg"/>
-        <div class="content">
-            <h2>adam holbel</h2>
-            co'2022 | <a href="https://github.com/orgs/fruitycoders/people/AdamHolbel">github</a>
 
-        </div>
-    </article>
 
-    <article>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358150.svg"/>
-        <div class="content">
-            <h2>linda long</h2>
-            co'2021 | <a href="https://github.com/orgs/fruitycoders/people/lindalonglong">github</a>
-
-        </div>
-    </article>
-
-    <article>
-        <img src="https://www.flaticon.com/svg/static/icons/svg/2358/2358323.svg"/>
-        <div class="content">
-            <h2>wenshi bao</h2>
-            co'2022 | <a href="https://github.com/orgs/fruitycoders/people/wenshibao">github</a>
-
-        </div>
-    </article>
 {% endblock %}
 
